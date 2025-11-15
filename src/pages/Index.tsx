@@ -257,7 +257,7 @@ const Index = () => {
       <footer className="bg-foreground text-background py-8">
         <div className="container mx-auto px-4 text-center">
           <p className="text-sm">
-            © 2024 Fresh Laundry. All rights reserved. Made with care for your clothes.
+            © 2025 Fresh Laundry. All rights reserved. Made with care for your clothes.
           </p>
         </div>
       </footer>
