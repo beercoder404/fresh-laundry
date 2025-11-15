@@ -14,7 +14,7 @@ import {
 } from "lucide-react";
 import heroImage from "@/assets/hero-laundry.jpg";
 
-const WHATSAPP_NUMBER = "919843325934"; // Properly formatted without spaces for WhatsApp URL
+const WHATSAPP_NUMBER = "918943325934"; // Properly formatted without spaces for WhatsApp URL
 
 const Index = () => {
   const [isVisible, setIsVisible] = useState(false);
