@@ -14,7 +14,7 @@ import {
 } from "lucide-react";
 import heroImage from "@/assets/hero-laundry.jpg";
 
-const WHATSAPP_NUMBER = "PLACEHOLDER_NUMBER";
+const WHATSAPP_NUMBER = "919843325934"; // Properly formatted without spaces for WhatsApp URL
 
 const Index = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -88,7 +88,7 @@ const Index = () => {
               className="bg-secondary hover:bg-secondary/90 text-secondary-foreground text-lg px-8 py-6 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105"
             >
               <MessageCircle className="w-5 h-5 mr-2" />
-              Get Started on WhatsApp
+              Contact Us Now
             </Button>
           </div>
         </div>
@@ -187,9 +187,9 @@ const Index = () => {
                 </div>
                 <h3 className="font-semibold text-lg mb-2 text-card-foreground">Address</h3>
                 <p className="text-muted-foreground">
-                  123 Clean Street
+                  MG Road, Kochi
                   <br />
-                  Fresh City, FC 12345
+                  Kerala, India 682001
                 </p>
               </Card>
 
@@ -198,10 +198,10 @@ const Index = () => {
                   <Clock className="w-6 h-6 text-primary" />
                 </div>
                 <h3 className="font-semibold text-lg mb-2 text-card-foreground">Operating Hours</h3>
-                <p className="text-muted-foreground">
-                  Monday - Friday: 7AM - 8PM
+                <p className="text-muted-foreground text-sm leading-relaxed">
+                  Mon - Fri: 7AM - 8PM
                   <br />
-                  Saturday - Sunday: 8AM - 6PM
+                  Sat - Sun: 8AM - 6PM
                 </p>
               </Card>
 
@@ -210,10 +210,10 @@ const Index = () => {
                   <Phone className="w-6 h-6 text-primary" />
                 </div>
                 <h3 className="font-semibold text-lg mb-2 text-card-foreground">Service Area</h3>
-                <p className="text-muted-foreground">
-                  We serve within 10 miles
+                <p className="text-muted-foreground text-sm">
+                  We serve across Kochi
                   <br />
-                  of our location
+                  and nearby areas
                 </p>
               </Card>
             </div>
@@ -239,7 +239,7 @@ const Index = () => {
             className="bg-white hover:bg-white/90 text-primary text-lg px-12 py-7 rounded-full shadow-2xl hover:shadow-3xl transition-all duration-300 hover:scale-105 font-semibold"
           >
             <MessageCircle className="w-6 h-6 mr-2" />
-            Contact Us on WhatsApp
+            Contact Us Now
           </Button>
         </div>
       </section>
