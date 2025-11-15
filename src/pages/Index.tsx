@@ -74,12 +74,12 @@ const Index = () => {
               isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
             }`}
           >
-            <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
               Fresh Clothes,
               <br />
               <span className="text-secondary-foreground">Delivered to Your Door</span>
             </h1>
-            <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-2xl mx-auto">
+            <p className="text-lg sm:text-xl md:text-2xl text-white/90 mb-8 max-w-2xl mx-auto">
               Professional laundry service that brings convenience and quality to your everyday life
             </p>
             <Button 
@@ -104,16 +104,16 @@ const Index = () => {
       <section className="py-20 bg-background">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-foreground">
               Why Choose Fresh Laundry?
             </h2>
-            <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
+            <p className="text-base md:text-lg text-muted-foreground mb-6 leading-relaxed">
               At Fresh Laundry, we understand that your time is valuable. That's why we've created 
               a hassle-free laundry service that takes care of everything. From pickup to delivery, 
               we handle your clothes with the utmost care, using premium eco-friendly products that 
               are gentle on fabrics and the environment.
             </p>
-            <p className="text-lg text-muted-foreground leading-relaxed">
+            <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
               Our team of experienced professionals ensures every garment receives personalized 
               attention. Whether it's your everyday wear or special occasion outfits, we treat 
               each item as if it were our own, delivering results that exceed expectations.
@@ -138,10 +138,10 @@ const Index = () => {
       <section className="py-20 bg-muted/30">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 text-foreground">
               Our Services
             </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">
               Comprehensive laundry solutions tailored to meet all your needs
             </p>
           </div>
@@ -155,10 +155,10 @@ const Index = () => {
                 <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mb-4 text-primary">
                   {service.icon}
                 </div>
-                <h3 className="text-xl font-semibold mb-2 text-card-foreground">
+                <h3 className="text-lg sm:text-xl font-semibold mb-3 text-card-foreground">
                   {service.title}
                 </h3>
-                <p className="text-muted-foreground">
+                <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
                   {service.description}
                 </p>
               </Card>
@@ -172,10 +172,10 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
-              <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 text-foreground">
                 Location & Hours
               </h2>
-              <p className="text-lg text-muted-foreground">
+              <p className="text-base md:text-lg text-muted-foreground">
                 Serving our community with excellence
               </p>
             </div>
@@ -185,8 +185,8 @@ const Index = () => {
                 <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
                   <MapPin className="w-6 h-6 text-primary" />
                 </div>
-                <h3 className="font-semibold text-lg mb-2 text-card-foreground">Address</h3>
-                <p className="text-muted-foreground">
+                <h3 className="font-semibold text-base sm:text-lg mb-3 text-card-foreground">Address</h3>
+                <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
                   MG Road, Kochi
                   <br />
                   Kerala, India 682001
@@ -197,8 +197,8 @@ const Index = () => {
                 <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
                   <Clock className="w-6 h-6 text-primary" />
                 </div>
-                <h3 className="font-semibold text-lg mb-2 text-card-foreground">Operating Hours</h3>
-                <p className="text-muted-foreground text-sm leading-relaxed">
+                <h3 className="font-semibold text-base sm:text-lg mb-3 text-card-foreground">Operating Hours</h3>
+                <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
                   Mon - Fri: 7AM - 8PM
                   <br />
                   Sat - Sun: 8AM - 6PM
@@ -209,8 +209,8 @@ const Index = () => {
                 <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
                   <Phone className="w-6 h-6 text-primary" />
                 </div>
-                <h3 className="font-semibold text-lg mb-2 text-card-foreground">Service Area</h3>
-                <p className="text-muted-foreground text-sm">
+                <h3 className="font-semibold text-base sm:text-lg mb-3 text-card-foreground">Service Area</h3>
+                <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
                   We serve across Kochi
                   <br />
                   and nearby areas
@@ -226,10 +226,10 @@ const Index = () => {
         <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0zNiAxOGMzLjMxNCAwIDYgMi42ODYgNiA2cy0yLjY4NiA2LTYgNi02LTIuNjg2LTYtNiAyLjY4Ni02IDYtNnoiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLW9wYWNpdHk9Ii4wNSIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9nPjwvc3ZnPg==')] opacity-20" />
         
         <div className="container mx-auto px-4 text-center relative z-10">
-          <h2 className="text-4xl md:text-6xl font-bold text-white mb-6">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
             Ready for Fresh, Clean Laundry?
           </h2>
-          <p className="text-xl text-white/90 mb-10 max-w-2xl mx-auto">
+          <p className="text-base sm:text-lg md:text-xl text-white/90 mb-10 max-w-2xl mx-auto">
             Join hundreds of satisfied customers who trust us with their laundry needs. 
             Get started today with just a message!
           </p>
