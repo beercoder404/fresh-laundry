@@ -4,10 +4,8 @@ import { Card } from "@/components/ui/card";
 import { 
   Shirt, 
   Sparkles, 
-  Clock, 
   MapPin, 
   Phone,
-  CheckCircle2,
   Droplets,
   Wind,
   MessageCircle,
@@ -17,10 +15,7 @@ import {
   Sofa,
   Users,
   Building,
-  Truck,
-  DollarSign,
-  Zap,
-  Leaf
+  Truck
 } from "lucide-react";
 import heroImage from "@/assets/hero-laundry.jpg";
 import washoraLogo from "@/assets/washora-logo.png";
@@ -105,55 +100,6 @@ const Index = () => {
     }
   ];
 
-  const advantages = [
-    {
-      icon: <Zap className="w-6 h-6" />,
-      title: "Fast turnaround time"
-    },
-    {
-      icon: <DollarSign className="w-6 h-6" />,
-      title: "Affordable and transparent pricing"
-    },
-    {
-      icon: <Users className="w-6 h-6" />,
-      title: "Skilled and trained staff"
-    },
-    {
-      icon: <Leaf className="w-6 h-6" />,
-      title: "Eco-friendly detergents"
-    },
-    {
-      icon: <MessageCircle className="w-6 h-6" />,
-      title: "Easy booking via phone & WhatsApp"
-    },
-    {
-      icon: <Truck className="w-6 h-6" />,
-      title: "Reliable pickup & delivery service"
-    }
-  ];
-
-  const coreValues = [
-    {
-      title: "Quality",
-      description: "We handle every garment with care and attention"
-    },
-    {
-      title: "Reliability",
-      description: "On-time service, every time"
-    },
-    {
-      title: "Hygiene",
-      description: "Clean, sanitized, and safe processing"
-    },
-    {
-      title: "Customer Focus",
-      description: "Your satisfaction is our priority"
-    },
-    {
-      title: "Integrity",
-      description: "Honest pricing and professional service"
-    }
-  ];
 
   return (
     <div className="min-h-screen">
@@ -210,121 +156,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Company Overview Section */}
-      <section className="py-20 bg-background">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-foreground">
-              Company Overview
-            </h2>
-            <p className="text-base md:text-lg text-muted-foreground mb-8 leading-relaxed">
-              Founded in 2025, Washora is the realization of a shared dream between two ambitious women 
-              who set out to transform the laundry industry with passion, purpose, and innovation. Based 
-              in Doha, Qatar, Washora is more than just a laundry service; it's a story of empowerment 
-              and dedication.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Our Story Section */}
-      <section className="py-20 bg-muted/30">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 text-center text-foreground">
-              Our Story
-            </h2>
-            <div className="space-y-4 text-base md:text-lg text-muted-foreground leading-relaxed">
-              <p>
-                Washora Laundry Services began as the shared dream of two ambitious women who believed 
-                in creating something meaningful—not just for themselves, but for their community. Both 
-                founders came from different backgrounds, yet they were united by a strong desire to build 
-                a business that reflected their values: hard work, integrity, and the courage to pursue 
-                independence.
-              </p>
-              <p>
-                Their entrepreneurial journey started with a simple observation: many individuals, families, 
-                and businesses struggled to find a reliable, high-quality laundry service they could trust. 
-                They saw an opportunity—not just to fill a gap in the market, but to create a service that 
-                truly made life easier for others. With this vision in mind, they decided to take the bold 
-                step of launching their own laundry business.
-              </p>
-              <p>
-                Starting from scratch was not easy. They faced challenges, financial constraints, and countless 
-                learning moments. But their determination, teamwork, and belief in their mission kept them moving 
-                forward. They invested in modern equipment, trained themselves on best practices, and built a 
-                service rooted in quality and care. Every garment, every customer, and every detail mattered.
-              </p>
-              <p>
-                As the business grew, so did their confidence as entrepreneurs. What began as a small startup 
-                powered by passion evolved into a trusted laundry service known for professionalism, reliability, 
-                and exceptional results. Today, Washora Laundry Services stands as a proud symbol of what women 
-                can achieve with vision, dedication, and the courage to follow their dreams.
-              </p>
-              <p className="font-semibold text-foreground">
-                Driven by their goal to become strong, successful, and well-known entrepreneurs, the founders 
-                continue to lead with purpose—providing outstanding service while inspiring others to believe 
-                in their own potential.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Vision, Mission & Values Section */}
-      <section className="py-20 bg-background">
-        <div className="container mx-auto px-4">
-          <div className="max-w-6xl mx-auto">
-            <div className="grid md:grid-cols-3 gap-8 mb-12">
-              <Card className="p-8 bg-card border-border">
-                <h3 className="text-2xl font-bold mb-4 text-secondary">Vision</h3>
-                <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
-                  To become the most trusted and preferred laundry service provider in our community 
-                  by consistently delivering exceptional quality and convenience.
-                </p>
-              </Card>
-
-              <Card className="p-8 bg-card border-border">
-                <h3 className="text-2xl font-bold mb-4 text-secondary">Mission</h3>
-                <ul className="space-y-3 text-sm md:text-base text-muted-foreground">
-                  <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-primary shrink-0 mt-1" />
-                    <span>Provide fast, reliable, and professional laundry services at competitive prices</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-primary shrink-0 mt-1" />
-                    <span>Ensure every customer receives spotless, fresh, and well-cared-for garments</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-primary shrink-0 mt-1" />
-                    <span>Build long-term customer relationships</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <CheckCircle2 className="w-5 h-5 text-primary shrink-0 mt-1" />
-                    <span>Adopt eco-friendly practices</span>
-                  </li>
-                </ul>
-              </Card>
-
-              <Card className="p-8 bg-card border-border">
-                <h3 className="text-2xl font-bold mb-4 text-secondary">Core Values</h3>
-                <ul className="space-y-3 text-sm md:text-base text-muted-foreground">
-                  {coreValues.map((value, index) => (
-                    <li key={index} className="flex items-start gap-2">
-                      <CheckCircle2 className="w-5 h-5 text-primary shrink-0 mt-1" />
-                      <div>
-                        <span className="font-semibold text-foreground">{value.title}:</span>{" "}
-                        <span>{value.description}</span>
-                      </div>
-                    </li>
-                  ))}
-                </ul>
-              </Card>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Services Section */}
       <section className="py-20 bg-muted/30">
         <div className="container mx-auto px-4">
@@ -354,30 +185,6 @@ const Index = () => {
                 </p>
               </Card>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Competitive Advantages Section */}
-      <section className="py-20 bg-background">
-        <div className="container mx-auto px-4">
-          <div className="max-w-5xl mx-auto">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-12 text-center text-foreground">
-              Competitive Advantages
-            </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-              {advantages.map((advantage, index) => (
-                <Card 
-                  key={index}
-                  className="p-6 text-center bg-card border-border hover:border-primary transition-all duration-300"
-                >
-                  <div className="w-12 h-12 rounded-full bg-secondary/10 flex items-center justify-center mx-auto mb-4">
-                    <div className="text-secondary">{advantage.icon}</div>
-                  </div>
-                  <p className="text-base font-medium text-card-foreground">{advantage.title}</p>
-                </Card>
-              ))}
-            </div>
           </div>
         </div>
       </section>
@@ -412,17 +219,17 @@ const Index = () => {
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 text-foreground">
                 Reach Us Easily
               </h2>
-              <p className="text-base md:text-lg text-muted-foreground">
+              <p className="text-base md:text-lg text-muted-foreground mb-8">
                 We collect. We clean. We deliver.
               </p>
             </div>
 
-            <div className="grid md:grid-cols-3 gap-8">
+            <div className="grid md:grid-cols-3 gap-6 mb-10">
               <Card className="p-6 text-center bg-card border-border">
                 <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
                   <MapPin className="w-6 h-6 text-primary" />
                 </div>
-                <h3 className="font-semibold text-base sm:text-lg mb-3 text-card-foreground">Location</h3>
+                <h3 className="font-semibold text-base sm:text-lg mb-2 text-card-foreground">Location</h3>
                 <p className="text-sm md:text-base text-muted-foreground">
                   Doha, Qatar
                 </p>
@@ -432,7 +239,7 @@ const Index = () => {
                 <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
                   <Phone className="w-6 h-6 text-primary" />
                 </div>
-                <h3 className="font-semibold text-base sm:text-lg mb-3 text-card-foreground">Phone</h3>
+                <h3 className="font-semibold text-base sm:text-lg mb-2 text-card-foreground">Phone</h3>
                 <a 
                   href={`tel:${PHONE_NUMBER}`}
                   className="text-sm md:text-base text-primary hover:underline"
@@ -445,7 +252,7 @@ const Index = () => {
                 <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
                   <Mail className="w-6 h-6 text-primary" />
                 </div>
-                <h3 className="font-semibold text-base sm:text-lg mb-3 text-card-foreground">Email</h3>
+                <h3 className="font-semibold text-base sm:text-lg mb-2 text-card-foreground">Email</h3>
                 <a 
                   href={`mailto:${EMAIL}`}
                   className="text-sm md:text-base text-primary hover:underline break-all"
@@ -455,7 +262,7 @@ const Index = () => {
               </Card>
             </div>
 
-            <div className="mt-12 text-center">
+            <div className="text-center">
               <p className="text-base md:text-lg text-muted-foreground mb-6">
                 Confirm your booking by choosing date and time
               </p>
