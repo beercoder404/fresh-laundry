@@ -156,6 +156,43 @@ const Index = () => {
         </div>
       </section>
 
+      {/* About Us Section */}
+      <section className="py-20 bg-background">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 text-center text-foreground">
+              About Us
+            </h2>
+            <div className="text-base md:text-lg text-muted-foreground leading-relaxed space-y-4">
+            Washora Laundry Services was founded in 2025 in Doha, Qatar, by two ambitious women. Driven by a shared dream and a desire to serve their community , they set out to transform the laundry industry by offering a reliable, high-quality service.
+Washora stands for professionalism, reliability, and exceptional results. Their mission is to provide fast, professional, and reliable laundry services at competitive prices, ensuring every customer receives spotless, fresh, and well-cared-for garments. Core values include Quality, Reliability, Hygiene, Customer Focus, and Integrity.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Company Profile Download Section */}
+      <section className="py-20 bg-gradient-to-br from-primary via-primary to-secondary relative overflow-hidden">
+        <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0zNiAxOGMzLjMxNCAwIDYgMi42ODYgNiA2cy0yLjY4NiA2LTYgNi02LTIuNjg2LTYtNiAyLjY4Ni02IDYtNnoiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLW9wYWNpdHk9Ii4wNSIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9nPjwvc3ZnPg==')] opacity-20" />
+        
+        <div className="container mx-auto px-4 text-center relative z-10">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-6">
+            Company Profile
+          </h2>
+          <p className="text-base sm:text-lg md:text-xl text-white/90 mb-10 max-w-2xl mx-auto">
+            Download our complete company brochure to learn more about Washora Laundry Services
+          </p>
+          <Button 
+            size="lg"
+            onClick={handleDownloadBrochure}
+            className="bg-white hover:bg-white/90 text-primary text-lg px-12 py-7 rounded-full shadow-2xl hover:shadow-3xl transition-all duration-300 hover:scale-105 font-semibold"
+          >
+            <Download className="w-6 h-6 mr-2" />
+            Download Brochure
+          </Button>
+        </div>
+      </section>
+
       {/* Services Section */}
       <section className="py-20 bg-muted/30">
         <div className="container mx-auto px-4">
@@ -186,28 +223,6 @@ const Index = () => {
               </Card>
             ))}
           </div>
-        </div>
-      </section>
-
-      {/* Company Profile Download Section */}
-      <section className="py-20 bg-gradient-to-br from-primary via-primary to-secondary relative overflow-hidden">
-        <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0zNiAxOGMzLjMxNCAwIDYgMi42ODYgNiA2cy0yLjY4NiA2LTYgNi02LTIuNjg2LTYtNiAyLjY4Ni02IDYtNnoiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLW9wYWNpdHk9Ii4wNSIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9nPjwvc3ZnPg==')] opacity-20" />
-        
-        <div className="container mx-auto px-4 text-center relative z-10">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-6">
-            Company Profile
-          </h2>
-          <p className="text-base sm:text-lg md:text-xl text-white/90 mb-10 max-w-2xl mx-auto">
-            Download our complete company brochure to learn more about Washora Laundry Services
-          </p>
-          <Button 
-            size="lg"
-            onClick={handleDownloadBrochure}
-            className="bg-white hover:bg-white/90 text-primary text-lg px-12 py-7 rounded-full shadow-2xl hover:shadow-3xl transition-all duration-300 hover:scale-105 font-semibold"
-          >
-            <Download className="w-6 h-6 mr-2" />
-            Download Brochure
-          </Button>
         </div>
       </section>
 
