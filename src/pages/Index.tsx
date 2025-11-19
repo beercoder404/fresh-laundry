@@ -112,37 +112,37 @@ const Index = () => {
           <div className="absolute inset-0 bg-gradient-to-br from-primary/90 via-primary/80 to-secondary/70" />
         </div>
         
-        <div className="relative z-10 container mx-auto px-4 py-20 text-center">
+        <div className="relative z-10 container mx-auto px-3 sm:px-4 md:px-6 py-8 sm:py-12 md:py-16 lg:py-20 text-center">
           <div 
             className={`transform transition-all duration-1000 ${
               isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
             }`}
           >
-            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-4 leading-tight">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-2 sm:mb-3 md:mb-4 leading-tight px-2">
               Washora
             </h1>
-            <p className="text-2xl sm:text-3xl md:text-4xl text-secondary font-semibold mb-6">
+            <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-secondary font-semibold mb-3 sm:mb-4 md:mb-6 px-2">
               Laundry Services
             </p>
-            <p className="text-lg sm:text-xl md:text-2xl text-white/90 mb-8 max-w-2xl mx-auto">
+            <p className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-white/90 mb-4 sm:mb-6 md:mb-8 max-w-2xl mx-auto px-3 sm:px-4 leading-relaxed">
               Free Your Time - Washora Handles the Rest!<br />
               We collect, we clean, we deliver!
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <div className="flex flex-col sm:flex-row gap-2 sm:gap-3 md:gap-4 justify-center items-center px-3 sm:px-4">
               <Button 
                 size="lg"
                 onClick={handleWhatsAppClick}
-                className="bg-secondary hover:bg-secondary/90 text-secondary-foreground text-lg px-8 py-6 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105"
+                className="w-full sm:w-auto bg-secondary hover:bg-secondary/90 text-secondary-foreground text-sm sm:text-base md:text-lg px-5 sm:px-6 md:px-8 py-4 sm:py-5 md:py-6 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105"
               >
-                <MessageCircle className="w-5 h-5 mr-2" />
+                <MessageCircle className="w-4 h-4 sm:w-5 sm:h-5 mr-2" />
                 WhatsApp Us
               </Button>
               <Button 
                 size="lg"
                 onClick={handlePhoneClick}
-                className="bg-white hover:bg-white/90 text-primary text-lg px-8 py-6 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105"
+                className="w-full sm:w-auto bg-white hover:bg-white/90 text-primary text-sm sm:text-base md:text-lg px-5 sm:px-6 md:px-8 py-4 sm:py-5 md:py-6 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105"
               >
-                <Phone className="w-5 h-5 mr-2" />
+                <Phone className="w-4 h-4 sm:w-5 sm:h-5 mr-2" />
                 Call Now
               </Button>
             </div>
@@ -158,12 +158,12 @@ const Index = () => {
 
       {/* About Us Section */}
       <section className="relative min-h-screen flex items-center justify-center bg-background">
-        <div className="container mx-auto px-4 py-20">
+        <div className="container mx-auto px-3 sm:px-4 md:px-6 py-8 sm:py-12 md:py-16 lg:py-20 w-full">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-12 text-center text-foreground">
+            <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold mb-4 sm:mb-6 md:mb-8 lg:mb-12 text-center text-foreground px-2">
               About Us
             </h2>
-            <div className="text-base md:text-lg text-muted-foreground leading-relaxed space-y-6">
+            <div className="text-xs sm:text-sm md:text-base lg:text-lg text-muted-foreground leading-relaxed space-y-3 sm:space-y-4 md:space-y-5 lg:space-y-6 px-3 sm:px-4 md:px-6">
               <p>
                 Washora Laundry Services was founded in 2025 in Doha, Qatar, by two ambitious women. Driven by a shared dream and a desire to serve their community, they set out to transform the laundry industry by offering a reliable, high-quality service.
               </p>
@@ -176,52 +176,52 @@ const Index = () => {
       </section>
 
       {/* Company Profile Download Section */}
-      <section className="py-20 bg-gradient-to-br from-primary via-primary to-secondary relative overflow-hidden">
+      <section className="py-8 sm:py-12 md:py-16 lg:py-20 bg-gradient-to-br from-primary via-primary to-secondary relative overflow-hidden">
         <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0zNiAxOGMzLjMxNCAwIDYgMi42ODYgNiA2cy0yLjY4NiA2LTYgNi02LTIuNjg2LTYtNiAyLjY4Ni02IDYtNnoiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLW9wYWNpdHk9Ii4wNSIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9nPjwvc3ZnPg==')] opacity-20" />
         
-        <div className="container mx-auto px-4 text-center relative z-10">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-6">
+        <div className="container mx-auto px-3 sm:px-4 md:px-6 text-center relative z-10">
+          <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-white mb-3 sm:mb-4 md:mb-6 px-2">
             Company Profile
           </h2>
-          <p className="text-base sm:text-lg md:text-xl text-white/90 mb-10 max-w-2xl mx-auto">
+          <p className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-white/90 mb-4 sm:mb-6 md:mb-8 lg:mb-10 max-w-2xl mx-auto px-3 sm:px-4 leading-relaxed">
             Download our complete company brochure to learn more about Washora Laundry Services
           </p>
           <Button 
             size="lg"
             onClick={handleDownloadBrochure}
-            className="bg-white hover:bg-white/90 text-primary text-lg px-12 py-7 rounded-full shadow-2xl hover:shadow-3xl transition-all duration-300 hover:scale-105 font-semibold"
+            className="bg-white hover:bg-white/90 text-primary text-sm sm:text-base md:text-lg px-6 sm:px-8 md:px-10 lg:px-12 py-4 sm:py-5 md:py-6 lg:py-7 rounded-full shadow-2xl hover:shadow-3xl transition-all duration-300 hover:scale-105 font-semibold"
           >
-            <Download className="w-6 h-6 mr-2" />
+            <Download className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 mr-2" />
             Download Brochure
           </Button>
         </div>
       </section>
 
       {/* Services Section */}
-      <section className="py-20 bg-muted/30">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 text-foreground">
+      <section className="py-8 sm:py-12 md:py-16 lg:py-20 bg-muted/30">
+        <div className="container mx-auto px-3 sm:px-4 md:px-6">
+          <div className="text-center mb-6 sm:mb-10 md:mb-12 lg:mb-16">
+            <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold mb-2 sm:mb-3 md:mb-4 text-foreground">
               Services Offered
             </h2>
-            <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-xs sm:text-sm md:text-base lg:text-lg text-muted-foreground max-w-2xl mx-auto px-2">
               Comprehensive laundry solutions tailored to meet all your needs
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
+          <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-2 sm:gap-3 md:gap-4 lg:gap-5 xl:gap-6 max-w-7xl mx-auto">
             {services.map((service, index) => (
               <Card 
                 key={index}
-                className="p-6 hover:shadow-lg transition-all duration-300 hover:-translate-y-1 bg-card border-border"
+                className="p-3 sm:p-4 md:p-5 lg:p-6 hover:shadow-lg transition-all duration-300 hover:-translate-y-1 bg-card border-border"
               >
-                <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mb-4 text-primary">
+                <div className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 lg:w-16 lg:h-16 rounded-full bg-primary/10 flex items-center justify-center mb-2 sm:mb-3 text-primary mx-auto">
                   {service.icon}
                 </div>
-                <h3 className="text-lg sm:text-xl font-semibold mb-3 text-card-foreground">
+                <h3 className="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl font-semibold mb-1 sm:mb-2 text-card-foreground text-center">
                   {service.title}
                 </h3>
-                <p className="text-sm md:text-base text-muted-foreground leading-relaxed">
+                <p className="text-[10px] sm:text-xs md:text-sm lg:text-base text-muted-foreground leading-tight sm:leading-relaxed text-center">
                   {service.description}
                 </p>
               </Card>
@@ -231,50 +231,50 @@ const Index = () => {
       </section>
 
       {/* Contact Section */}
-      <section className="py-20 bg-background">
-        <div className="container mx-auto px-4">
+      <section className="py-8 sm:py-12 md:py-16 lg:py-20 bg-background">
+        <div className="container mx-auto px-3 sm:px-4 md:px-6">
           <div className="max-w-4xl mx-auto">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 text-foreground">
+            <div className="text-center mb-6 sm:mb-8 md:mb-10 lg:mb-12">
+              <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold mb-2 sm:mb-3 md:mb-4 text-foreground px-2">
                 Reach Us Easily
               </h2>
-              <p className="text-base md:text-lg text-muted-foreground mb-8">
+              <p className="text-xs sm:text-sm md:text-base lg:text-lg text-muted-foreground mb-4 sm:mb-6 md:mb-8 px-3 sm:px-4">
                 We collect. We clean. We deliver.
               </p>
             </div>
 
-            <div className="grid md:grid-cols-3 gap-6 mb-10">
-              <Card className="p-6 text-center bg-card border-border">
-                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
-                  <MapPin className="w-6 h-6 text-primary" />
+            <div className="grid grid-cols-3 gap-2 sm:gap-3 md:gap-4 lg:gap-5 xl:gap-6 mb-6 sm:mb-8 md:mb-10">
+              <Card className="p-3 sm:p-4 md:p-5 lg:p-6 text-center bg-card border-border">
+                <div className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-2 sm:mb-3 md:mb-4">
+                  <MapPin className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 text-primary" />
                 </div>
-                <h3 className="font-semibold text-base sm:text-lg mb-2 text-card-foreground">Location</h3>
-                <p className="text-sm md:text-base text-muted-foreground">
+                <h3 className="font-semibold text-[10px] sm:text-xs md:text-sm lg:text-base xl:text-lg mb-1 sm:mb-2 text-card-foreground">Location</h3>
+                <p className="text-[9px] sm:text-[10px] md:text-xs lg:text-sm xl:text-base text-muted-foreground">
                   Doha, Qatar
                 </p>
               </Card>
 
-              <Card className="p-6 text-center bg-card border-border">
-                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
-                  <Phone className="w-6 h-6 text-primary" />
+              <Card className="p-3 sm:p-4 md:p-5 lg:p-6 text-center bg-card border-border">
+                <div className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-2 sm:mb-3 md:mb-4">
+                  <Phone className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 text-primary" />
                 </div>
-                <h3 className="font-semibold text-base sm:text-lg mb-2 text-card-foreground">Phone</h3>
+                <h3 className="font-semibold text-[10px] sm:text-xs md:text-sm lg:text-base xl:text-lg mb-1 sm:mb-2 text-card-foreground">Phone</h3>
                 <a 
                   href={`tel:${PHONE_NUMBER}`}
-                  className="text-sm md:text-base text-primary hover:underline"
+                  className="text-[9px] sm:text-[10px] md:text-xs lg:text-sm xl:text-base text-primary hover:underline break-all"
                 >
                   {PHONE_NUMBER}
                 </a>
               </Card>
 
-              <Card className="p-6 text-center bg-card border-border">
-                <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
-                  <Mail className="w-6 h-6 text-primary" />
+              <Card className="p-3 sm:p-4 md:p-5 lg:p-6 text-center bg-card border-border">
+                <div className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-2 sm:mb-3 md:mb-4">
+                  <Mail className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 text-primary" />
                 </div>
-                <h3 className="font-semibold text-base sm:text-lg mb-2 text-card-foreground">Email</h3>
+                <h3 className="font-semibold text-[10px] sm:text-xs md:text-sm lg:text-base xl:text-lg mb-1 sm:mb-2 text-card-foreground">Email</h3>
                 <a 
                   href={`mailto:${EMAIL}`}
-                  className="text-sm md:text-base text-primary hover:underline break-all"
+                  className="text-[9px] sm:text-[10px] md:text-xs lg:text-sm xl:text-base text-primary hover:underline break-all"
                 >
                   {EMAIL}
                 </a>
@@ -282,32 +282,32 @@ const Index = () => {
             </div>
 
             <div className="text-center">
-              <p className="text-base md:text-lg text-muted-foreground mb-6">
+              <p className="text-xs sm:text-sm md:text-base lg:text-lg text-muted-foreground mb-3 sm:mb-4 md:mb-6 px-3 sm:px-4">
                 Confirm your booking by choosing date and time
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center flex-wrap">
+              <div className="flex flex-col sm:flex-row gap-2 sm:gap-3 md:gap-4 justify-center items-center flex-wrap px-3 sm:px-4">
                 <Button 
                   size="lg"
                   onClick={handleWhatsAppClick}
-                  className="bg-secondary hover:bg-secondary/90 text-secondary-foreground text-lg px-8 py-6 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105"
+                  className="w-full sm:w-auto bg-secondary hover:bg-secondary/90 text-secondary-foreground text-sm sm:text-base md:text-lg px-5 sm:px-6 md:px-8 py-4 sm:py-5 md:py-6 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105"
                 >
-                  <MessageCircle className="w-5 h-5 mr-2" />
+                  <MessageCircle className="w-4 h-4 sm:w-5 sm:h-5 mr-2" />
                   WhatsApp Us
                 </Button>
                 <Button 
                   size="lg"
                   onClick={handlePhoneClick}
-                  className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg px-8 py-6 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105"
+                  className="w-full sm:w-auto bg-primary hover:bg-primary/90 text-primary-foreground text-sm sm:text-base md:text-lg px-5 sm:px-6 md:px-8 py-4 sm:py-5 md:py-6 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105"
                 >
-                  <Phone className="w-5 h-5 mr-2" />
+                  <Phone className="w-4 h-4 sm:w-5 sm:h-5 mr-2" />
                   Call Now
                 </Button>
                 <Button 
                   size="lg"
                   onClick={handleEmailClick}
-                  className="bg-card hover:bg-card/90 text-card-foreground border-2 border-border text-lg px-8 py-6 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105"
+                  className="w-full sm:w-auto bg-card hover:bg-card/90 text-card-foreground border-2 border-border text-sm sm:text-base md:text-lg px-5 sm:px-6 md:px-8 py-4 sm:py-5 md:py-6 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105"
                 >
-                  <Mail className="w-5 h-5 mr-2" />
+                  <Mail className="w-4 h-4 sm:w-5 sm:h-5 mr-2" />
                   Email Us
                 </Button>
               </div>
@@ -335,12 +335,12 @@ const Index = () => {
       </div>
 
       {/* Footer */}
-      <footer className="bg-foreground text-background py-8">
-        <div className="container mx-auto px-4 text-center">
-          <p className="text-sm mb-2">
+      <footer className="bg-foreground text-background py-6 sm:py-8">
+        <div className="container mx-auto px-4 sm:px-6 text-center">
+          <p className="text-xs sm:text-sm mb-2">
             © 2025 Washora Laundry Services. All rights reserved.
           </p>
-          <p className="text-sm text-background/70">
+          <p className="text-xs sm:text-sm text-background/70">
             wash · fold · repeat
           </p>
         </div>
