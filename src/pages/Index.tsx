@@ -172,13 +172,6 @@ const Index = () => {
               isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
             }`}
           >
-            <div className="mb-8">
-              <img 
-                src={washoraLogo} 
-                alt="Washora Laundry Services" 
-                className="w-32 h-32 mx-auto"
-              />
-            </div>
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-4 leading-tight">
               Washora
             </h1>
