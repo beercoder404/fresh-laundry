@@ -179,7 +179,8 @@ const Index = () => {
               Laundry Services
             </p>
             <p className="text-lg sm:text-xl md:text-2xl text-white/90 mb-8 max-w-2xl mx-auto">
-              Free your time - Washora handles the rest
+              Free Your Time - Washora Handles the Rest!<br />
+              We collect, we clean, we deliver!
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Button 
