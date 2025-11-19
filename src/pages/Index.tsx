@@ -13,7 +13,7 @@ import {
   MessageCircle,
   Mail,
   Download,
-  Iron,
+  Flame,
   Sofa,
   Users,
   Building,
@@ -64,7 +64,7 @@ const Index = () => {
       description: "Freshly cleaned and neatly folded clothes"
     },
     {
-      icon: <Iron className="w-8 h-8" />,
+      icon: <Flame className="w-8 h-8" />,
       title: "Ironing / Pressing",
       description: "Smooth, wrinkle-free garments every time"
     },
