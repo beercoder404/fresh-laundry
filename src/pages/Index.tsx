@@ -121,7 +121,7 @@ const Index = () => {
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-2 sm:mb-3 md:mb-4 leading-tight px-2">
               Washora
             </h1>
-            <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-secondary font-semibold mb-3 sm:mb-4 md:mb-6 px-2">
+            <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-white font-semibold mb-3 sm:mb-4 md:mb-6 px-2">
               Laundry Services
             </p>
             <p className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-white/90 mb-4 sm:mb-6 md:mb-8 max-w-2xl mx-auto px-3 sm:px-4 leading-relaxed">
