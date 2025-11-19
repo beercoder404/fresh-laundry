@@ -157,15 +157,19 @@ const Index = () => {
       </section>
 
       {/* About Us Section */}
-      <section className="py-20 bg-background">
-        <div className="container mx-auto px-4">
+      <section className="relative min-h-screen flex items-center justify-center bg-background">
+        <div className="container mx-auto px-4 py-20">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 text-center text-foreground">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-12 text-center text-foreground">
               About Us
             </h2>
-            <div className="text-base md:text-lg text-muted-foreground leading-relaxed space-y-4">
-            Washora Laundry Services was founded in 2025 in Doha, Qatar, by two ambitious women. Driven by a shared dream and a desire to serve their community , they set out to transform the laundry industry by offering a reliable, high-quality service.
-Washora stands for professionalism, reliability, and exceptional results. Their mission is to provide fast, professional, and reliable laundry services at competitive prices, ensuring every customer receives spotless, fresh, and well-cared-for garments. Core values include Quality, Reliability, Hygiene, Customer Focus, and Integrity.
+            <div className="text-base md:text-lg text-muted-foreground leading-relaxed space-y-6">
+              <p>
+                Washora Laundry Services was founded in 2025 in Doha, Qatar, by two ambitious women. Driven by a shared dream and a desire to serve their community, they set out to transform the laundry industry by offering a reliable, high-quality service.
+              </p>
+              <p>
+                Washora stands for professionalism, reliability, and exceptional results. Their mission is to provide fast, professional, and reliable laundry services at competitive prices, ensuring every customer receives spotless, fresh, and well-cared-for garments. Core values include Quality, Reliability, Hygiene, Customer Focus, and Integrity.
+              </p>
             </div>
           </div>
         </div>
