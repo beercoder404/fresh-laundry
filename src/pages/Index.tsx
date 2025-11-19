@@ -157,13 +157,13 @@ const Index = () => {
       </section>
 
       {/* About Us Section */}
-      <section className="relative py-8 sm:py-12 md:py-16 lg:min-h-screen lg:flex lg:items-center bg-muted/30">
+      <section className="relative py-12 sm:py-16 md:py-20 lg:py-24 lg:min-h-screen lg:flex lg:items-center bg-muted/30">
         <div className="container mx-auto px-3 sm:px-4 md:px-6 w-full">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold mb-4 sm:mb-6 md:mb-8 lg:mb-12 text-center text-foreground px-2">
+            <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold mb-6 sm:mb-8 md:mb-10 lg:mb-12 text-center text-foreground px-2">
               About Us
             </h2>
-            <div className="text-xs sm:text-sm md:text-base lg:text-lg text-muted-foreground leading-relaxed space-y-3 sm:space-y-4 md:space-y-5 lg:space-y-6 px-3 sm:px-4 md:px-6">
+            <div className="text-xs sm:text-sm md:text-base lg:text-lg text-muted-foreground leading-relaxed space-y-4 sm:space-y-5 md:space-y-6 lg:space-y-6 px-3 sm:px-4 md:px-6">
               <p>
                 Washora Laundry Services was founded in 2025 in Doha, Qatar, by two ambitious women. Driven by a shared dream and a desire to serve their community, they set out to transform the laundry industry by offering a reliable, high-quality service.
               </p>
@@ -198,7 +198,7 @@ const Index = () => {
       </section>
 
       {/* Services Section */}
-      <section className="py-8 sm:py-12 md:py-16 lg:py-20 bg-background">
+      <section className="py-8 sm:py-12 md:py-16 lg:py-20 bg-muted/30">
         <div className="container mx-auto px-3 sm:px-4 md:px-6">
           <div className="text-center mb-6 sm:mb-10 md:mb-12 lg:mb-16">
             <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold mb-2 sm:mb-3 md:mb-4 text-foreground">
